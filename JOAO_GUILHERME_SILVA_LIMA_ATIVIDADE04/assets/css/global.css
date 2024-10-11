@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: tan;
+}
+header{
+    border: solid;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    background-color: cadetblue;
+}
+.navbar{ gap: 25px;
+    display: flex;
+}
+.casa{
+    text-decoration: none;
+    border: solid;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20%;
+    color: chocolate;
+    background-color: aquamarine;
+}
+.navbar a{
+    text-decoration: none;
+    border: solid;
+    border-radius: 30%;
+    padding: 5px 10px 5px 10px;
+    justify-content: center;
+}
+.casa:hover{background-color: crimson;
+    transition: 0.3s;
+}
+#gato{
+    color: coral;
+    background-color: bisque;
+}
+#eu{
+    color: black;
+    background-color: bisque;
+}
+#amor{
+    color: red;
+    background-color: bisque;
+}
